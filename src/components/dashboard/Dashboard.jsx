@@ -2,7 +2,7 @@ import React from 'react'
 
 function Dashboard() {
     return (
-        <section className="w-full min-h-screen bg-gray-900 p-6 md:p-10">
+        <section className="w-full min-h-screen bg-linear-to-br from-gray-800 via-gray-900 to-black p-6 md:p-10">
             <div className="flex flex-col md:flex-row gap-6 h-full mt-20">
 
                 {/* LEFT CARD */}

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 function Home() {
     return (
@@ -17,9 +18,11 @@ function Home() {
                     “Stay organised, stay connected.”
                 </p>
 
+                <Link to={'/signup'}>
                 <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-12 py-3 rounded-xl shadow-lg shadow-blue-900/40 transition-all duration-300">
                     Sign Up
                 </button>
+                </Link>
             </section>
         </main>
 
