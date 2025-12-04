@@ -3,7 +3,7 @@ import React from 'react'
 function Dashboard() {
     return (
         <section className="w-full min-h-screen bg-gray-900 p-6 md:p-10">
-            <div className="flex flex-col md:flex-row gap-6 h-full">
+            <div className="flex flex-col md:flex-row gap-6 h-full mt-20">
 
                 {/* LEFT CARD */}
                 <div className="p-6 rounded-3xl bg-gray-800 shadow-xl w-full md:w-1/3 h-full flex flex-col justify-between">

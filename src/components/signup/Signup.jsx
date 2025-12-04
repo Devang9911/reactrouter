@@ -4,17 +4,14 @@ import { useState } from 'react'
 function Signup() {
     const [isLogin, setIsLogin] = useState(true);
     return (
-        <section className="w-full flex flex-col md:flex-row items-center justify-center gap-10 bg-gray-900 p-12">
-            <div className='text-white text-lg md:text-2xl flex gap-3 flex-col flex-wrap p-5 md:text-left'>
-                <p className='text-red-300 text-3xl'>Welcome back! </p>
-                <p>Keep your contacts safe and beautifully organized.</p>
-            </div>
+        <section className="w-full flex flex-col md:flex-row items-center justify-center gap-10 bg-gray-900 p-1">
+            
 
 
-            <div className="w-full max-w-md bg-gray-900 text-white p-8 rounded-2xl shadow-2xl">
+            <div className="w-full max-w-md text-white p-5 rounded-2xl mt-25 mb-5">
                 {/* Title */}
                 <h2 className="text-3xl font-bold text-center mb-6">
-                    {isLogin ? "Login" : "Create Account"}
+                    {isLogin ? "Welcome back!" : "Create Account"}
                 </h2>
 
 
